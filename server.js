@@ -1,3 +1,7 @@
+const app = require("./index.js");
+app.listen(3000, () => {
+  console.log('server started');
+});
 function letterCombinations(digits) {
   //Complete the function
   if (digits == null || digits.length === 0) return [];
